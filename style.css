@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #163f58;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 35px;
+    font-family: roboto;
+    font-weight: 500;
+}
+
+h1 i {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 8% 0;
+}
+
+.card,
+.card2,
+.card3,
+.card4 {
+    width: 24%;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 10px #fff;
+    position: relative;
+    border-radius: 5%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.content p {
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:768px) and (min-width:280px) {
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .card2,
+    .card3,
+    .card4 {
+        width: 85%;
+        border: 2px solid #000;
+        box-shadow: 0px 0px 10px #fff;
+        position: relative;
+        border-radius: 5%;
+        background-color: #fff;
+        overflow: hidden;
+        margin-top: 5%;
+    }
+
+    .pp p {
+        font-size: 11px;
+    }
+
+    .mh i {
+        font-size: 19px;
+    }
+
+    .mh h1 {
+        font-size: 23px;
+    }
+
+    @keyframes slideleftcard {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #ibrahim {
+        animation: slideleftcard 2s ease-in-out;
+    }
+
+    @keyframes slideleftc {
+        0% {
+            transform: translatex(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #noman {
+        animation: slideleftc 2s ease-in-out 2s;
+        transition: all 1s linear;
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #muzamil {
+        animation: slidetop 2s ease-in-out 3s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slideleftc {
+        0% {
+            transform: translatex(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #faizan {
+        animation: slideleftc 2s ease-in-out 4s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #haris {
+        animation: slidetop 2s ease-in-out 5s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slideleftc {
+        0% {
+            transform: translatex(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #shahzad {
+        animation: slideleftc 2s ease-in-out 6s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #hammad {
+        animation: slidetop 2s ease-in-out 7s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slideleftc {
+        0% {
+            transform: translatex(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #hebron {
+        animation: slideleftc 2s ease-in-out 8s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #saad {
+        animation: slidetop 2s ease-in-out 9s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slideleftc {
+        0% {
+            transform: translatex(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #ghalib {
+        animation: slideleftc 2s ease-in-out 10s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    #ghazanfar {
+        animation: slidetop 2s ease-in-out 11s;
+        transition: all 1s linear;
+
+    }
+
+    @keyframes slidetop {
+        0% {
+            transform: translatex(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+
+    .mh {
+        animation: slidetop 2s ease-in-out;
+        transition: all 1s linear;
+
+    }
+
+}
+
+.logoo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoo h3 {
+    color: rgb(27, 27, 141);
+}
+
+.logoo span {
+    color: rgb(63, 34, 34);
+    font-size: 11px;
+}
+
+button {
+    background-color: rgb(81, 255, 0);
+    color: #fff;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+
+.image {
+    min-height: 200px;
+}
+
+.image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 0;
+}
+
+.content h4 {
+    margin: 3% 0;
+}
+
+.layer i {
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s linear;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.whatsapp,
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram a,
+.whatsapp a {
+    font-size: 12px;
+    color: blue;
+}
+
+.pp {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.pp p {
+    border: 1px solid yellow;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.pp {
+    animation: slideDown 1.5s ease-in-out;
+}
+
+.card .layer {
+    height: 0;
+}
+
+.card:hover .layer {
+    height: 100%;
+}
+
+.card2 .layer {
+    width: 0;
+}
+
+.card2:hover .layer {
+    width: 100%;
+}
+
+.card3 .layer {
+    left: 100%;
+}
+
+.card3:hover .layer {
+    left: 0;
+}
+
+.card4 .layer {
+    top: 100%;
+}
+
+.card4:hover .layer {
+    top: 0;
+}
+
+.container {
+    width: 805px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f4b41a;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 grey;
+}
+
+.head-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li:not(:last-child) {
+    margin-right: 8px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: grey;
+    color: white;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #050505;
+}
+
+.menu {
+    display: none;
+}
+
+.menu i {
+    font-size: 22px;
+}
+
+.nav-up {
+    display: none;
+}
+
+.nav-up-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #163f58;
+    color: red;
+    box-shadow: 0 2px 5px 0 rgb(237, 206, 160);
+}
+
+.nav-logo {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-cencle i {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-three-line {
+    width: 20px;
+    display: inline-block;
+}
+
+.menu-line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
+.menu-line:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 780px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #fff;
+        width: 170px;
+        height: auto;
+        box-shadow: 3px 0 3px 0 grey;
+        transition: all 600ms ease;
+        z-index: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    nav ul li {
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        color: black;
+        background-color: #dedede;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .menu {
+        display: inline-block;
+        filter: drop-shadow(0 0 5px white);
+        /* z-index: 2; */
+    }
+
+    .overlay {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        top: 0;
+        z-index: 0;
+        left: -100%;
+        transition: all 200ms ease-in-out;
+    }
+
+    .nav-up {
+        display: block;
+    }
+
+    .active {
+        background-color: #f4b41a;
+        font-weight: bold;
+        box-shadow: 0 2px 4px 0 grey;
+    }
+}
+
+.show {
+    left: 0;
+    /* display: block; */
+}
+
+.hide {
+    left: -100%;
+}
+
+.rotate {
+    transform: rotate(90deg);
+    transition: 0.5s ease-in-out;
+}
